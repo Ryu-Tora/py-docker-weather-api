@@ -2,8 +2,9 @@ import os
 import requests
 
 
-CITY="Paris"
+CITY = "Paris"
 API_KEY = os.getenv("API_KEY")
+
 
 def get_weather() -> None:
     url = "http://api.weatherapi.com/v1/current.json"
